@@ -3,6 +3,8 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
+  console.log('check1', process.env.DB)
+  console.log('check2', process.env.NEXT_PUBLIC_ANALYTICS_ID)
   return (
     <div className={styles.container}>
       <Head>
