@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "serviceConfiguration": {
+    "apiName": "nextapp",
+    "serviceName": "AppSync",
+    "gqlSchemaPath": "/Users/yanlgong/Desktop/mono-repo/next-app/amplify/backend/api/nextapp/schema.graphql",
+    "defaultAuthType": {
+      "mode": "API_KEY",
+      "expirationTime": 7
+    }
+  }
+}
